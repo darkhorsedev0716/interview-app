@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Dashboard",
+        "to": "/",
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Interviews",
+        "isSubheader": true,
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Create New",
+        "to": "/interviews/new",
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Open",
+        "to": "/interviews/open",
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "On-hold",
+        "to": "/interviews/on-hold",
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Closed",
+        "to": "/interviews/closed",
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Shared",
+        "to": "/interviews/shared",
+        "scope": ["user","manager"]
+    },
+    { 
+        "title": "Questions", 
+        "isSubheader": true ,
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Create New Question",
+        "to": "/questions/new",
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Question Pool",
+        "to": "/questions",
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Categories",
+        "to": "/question-categories",
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "Administration",
+        "isSubheader": true,
+        "scope": ["user","manager"]
+    },
+    {
+        "title": "System Users",
+        "to": "/system-users",
+        "scope": ["user"]
+    },
+    {
+        "title": "Users",
+        "to": "/admin/users",
+        "scope": ["admin"]
+    },
+    {
+        "title": "Update Password",
+        "to": "/update-password",
+        "scope": ["user","manager", "admin"]
+    }
+]

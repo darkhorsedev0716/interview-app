@@ -1,0 +1,137 @@
+.signin-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+}
+.signin-left {
+  flex: 2;
+  position: relative;
+  background: url(/public/assets/images/gradient-bg.jpg);
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 20px;
+}
+.signin-left h3 {
+  color: rgb(206, 206, 206);
+  font-size: 2rem;
+  margin-bottom: 1.25rem !important;
+}
+
+.signin-left p {
+  color: #fff;
+  opacity: 0.8 !important;
+  font-size: 12px;
+  font-weight: lighter !important;
+  margin: 6px 0px;
+}
+
+.left-footer {
+  position: absolute;
+  bottom: 25px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-footer p {
+  font-size: 16px;
+}
+
+.left-footer div a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.left-footer div {
+  display: flex;
+  gap: 30px;
+}
+
+.signin-right {
+  flex: 3;
+  position: relative;
+}
+
+.abs-right{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.abs-right a{
+    text-decoration: none;
+}
+
+.signin-right .form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+}
+.signin-right .form .form-sub-title{
+    font-size: 12px;
+}
+
+.signin-right .form input{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #f3f6f9;
+    border: 1px solid;
+    border-color: #f3f6f9;
+    color: #3f4254;
+    transition: all .15s ease;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+.btn-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.btn-cont button{
+    color: #fff;
+    background-color: #3699ff;
+    border-color: #3699ff;
+    outline: none!important;
+    vertical-align: middle;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .signin-container {
+    flex-direction: column;
+  }
+  .signin-left {
+    position: static;
+    flex: auto;
+    padding: 10px 20px;
+    background-position: top center;
+  }
+
+  .left-footer p,
+  .left-footer div a {
+    color: #fff;
+    color: #000;
+    font-size: 14px;
+  }
+  .signin-right{
+      flex: 4;
+      height: 60vh !important;
+  }
+}

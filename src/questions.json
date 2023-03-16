@@ -1,0 +1,24 @@
+{
+    "practice":[
+        {
+            "id":"0",
+            "question":"What did you do before this?",
+            "duration": 3
+        },
+        {
+            "id":"1",
+            "question":"What do you enjoy about your job?",
+            "duration": 1
+        },
+        {
+            "id":"2",
+            "question":"Why did you come to this company?",
+            "duration": 2
+        },
+        {
+            "id":"3",
+            "question":"What’s your favorite part working here?",
+            "duration": 1
+        }
+    ]
+}
